@@ -89,6 +89,9 @@ void runMethod(id self, SEL _cmd, NSString *miles){
     NSLog(@"%@",miles);
 }
 
+- (void)run:(id)sender {
+    
+}
 #pragma mark - 4.使用runtime给分类扩展属性(请参考：Person+mult.m)
 
 
